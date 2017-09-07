@@ -2,9 +2,9 @@
 
 EE 4GEE Wireless Router - Multiple Security Vulnerabilities Advisory
 -------------------------------------------------
-<b>Vendor:</b> EE
-<br>
-<b>Product:</b> 4GEE Mobile WiFi Router - Version EE60_00_05.00_25
+<b>Hardware Version/Model:</b> 4GEE WiFi MBB (EE60VB-2AE8G83).
+<b>Vulnerable Software Version:</b> EE60_00_05.00_25.
+<b>Patched Software Version:</b> EE60_00_05.00_31.
 <br>
 <b>Product URL:</b> https://shop.ee.co.uk/dongles/pay-monthly-mobile-broadband/4gee-wifi/details
 <br>
