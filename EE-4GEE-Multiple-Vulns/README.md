@@ -146,7 +146,7 @@ http://192.168.1.1/goform/getSysteminfo
 http://192.168.1.1/goform/getUsbIP?rand=0.13371337
 <br>
 <br>
-<b>Attack Vectors:</b> ??????
+<b>Attack Vectors:</b> An attacker on the local network could escalate privileges from unauthenticated user, to authenticated administrative user by accessing the saved admin credentials within the JSONP endpoint. Additionally, an attacker could access network configuration data and SMS messages without authentication. 
 <br>
 <br>
 <b>Vulnerability Description:</b> The 4GEE Mobile WiFi Router is vulnerable to multiple JSONP information disclosure vulnerabilities within various endpoints which retrieve and/or set data. The JSONP endpoints allow for unauthenticated information disclosure of sensitive configuration data, settings, administration passwords and SMS messages, due to the lack of robust and effective access control. An attacker could view such unauthenticated endpoints via the local WiFi network to gain access to the administration credentials, router configuration and/or SMS messages.
