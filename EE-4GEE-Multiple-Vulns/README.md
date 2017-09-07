@@ -127,7 +127,7 @@ JSONP Sensitive Information Disclosure - Multiple
 -------------------------------------------------
 <b>Attack Type:</b> Remote
 <br>
-<b>Impact:</b> Information Disclosure, Escalation of Privileges
+<b>Impact:</b> Information Disclosure
 <br>
 <b>Affected Components:</b> 
 <br>
