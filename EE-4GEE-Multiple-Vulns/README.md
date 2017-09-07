@@ -83,7 +83,7 @@ http://192.168.1.1/goform/setReset?rand=0.021764703082234105
 http://192.168.1.1/goform/uploadBackupSettings
 <br>
 <br>
-<b>Attack Vectors:</b> ??????
+<b>Attack Vectors:</b> An attacker could attempt to trick users into accessing malicous CSRF payload URLs, which would allow an attacker to execute privileged functions such as device reset, device reboot, internet connection and disconnection, SMS message redirection and binary configuration file upload, which would allow modification of all device settings. Addtionally, this exploit can be chained together using other vulnerabilities discovered to be remotely exploited over SMS, using Stored Cross Site Scripting (XSS).
 <br>
 <br>
 <b>Vulnerability Description:</b> The 4GEE Mobile WiFi Router is vulnerable to multiple Cross Site Request Forgery (CSRF) vulnerabilities within various router administration webpages, due to the lack of robust request verification tokens within requests. An attacker could persuade an authenticated user to visit a malicous website using phishing and/or social engineering techniques to send an CSRF request to the web application, thus executing the privileged function as the authenticated user. In this case, due to the lack of authentication on certain privileged functions, authentication may not be neccessary.
