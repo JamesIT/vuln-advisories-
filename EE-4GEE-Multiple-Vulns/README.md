@@ -11,6 +11,29 @@ EE 4GEE Wireless Router - Multiple Security Vulnerabilities Advisory
 <b>Proof of Concept Writeup:</b> https://blog.jameshemmings.co.uk/2017/08/24/ee-4gee-mobile-wifi-router-multiple-security-vulnerabilities-writeup/#more-276
 <br>
 <b>Disclosure Timeline:</b>
+27th July, 2017 at 21:32 GMT. Email sent with technical vulnerability information and PoC.
+<br>
+27th July, 2017 at 22:00 GMT. Response from EE devices manager, confirming receipt of PoC.
+<br>
+31th July, 2017 at  18:47 GMT. Update from vendor, patches being developed for reported issues.
+<br>
+1st August, 2017 at 10:43 GMT. Reply sent to vendor.
+<br>
+10th August, 2017 at 10:32 GMT. Update from vendor, patches still being developed.
+<br>
+18th August, 2017 at 12:11 GMT. Email sent to vendor asking for update/ETA.
+<br>
+18th August, 2017 at 12:15 GMT. Response from vendor, updates to be released on Monday.
+<br>
+18th August, 2017 at 12:30 GMT. Reply sent to vendor with device IMEI for online update process.
+<br>
+22nd August, 2017 at 15:54 GMT. Response from vendor, beta firmware released to verify  changes.
+<br>
+23rd August, 2017 at 21:29 GMT. Reply sent to vendor, vulnerabilities successfully patched.
+<br>
+24th August, 2017 at 09:32 GMT. Response from vendor, patch publicly released to customers.
+<br>
+24th August, 2017 at 12:00 GMT. Full disclosure via Blog.
 
 Stored Cross Site Scripting (XSS) - SMS Messages:
 -------------------------------------------------
