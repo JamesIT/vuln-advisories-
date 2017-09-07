@@ -32,7 +32,6 @@ Cross Site Request Forgery (CSRF) - Multiple:
 <br>
 <b>Impact:</b> Code Execution
 <br>
-<br>
 <b>Affected Components:</b>
 <br>
 http://192.168.1.1/goform/AddNewProfile?rand=0.376065695742409
