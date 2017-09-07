@@ -3,9 +3,13 @@
 EE 4GEE Wireless Router - Multiple Security Vulnerabilities Advisory
 -------------------------------------------------
 <b>Vendor:</b> EE
+<br>
 <b>Product:</b> 4GEE Mobile WiFi Router - Version EE60_00_05.00_25
+<br>
 <b>Product URL:</b> https://shop.ee.co.uk/dongles/pay-monthly-mobile-broadband/4gee-wifi/details
+<br>
 <b>Proof of Concept Writeup:</b> https://blog.jameshemmings.co.uk/2017/08/24/ee-4gee-mobile-wifi-router-multiple-security-vulnerabilities-writeup/#more-276
+<br>
 <b>Disclosure Timeline:</b>
 
 Stored Cross Site Scripting (XSS) - SMS Messages:
