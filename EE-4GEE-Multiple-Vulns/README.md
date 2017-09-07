@@ -28,13 +28,10 @@ CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N/E:H/RL:O/RC:C (CVSS V3: 7.1 - High)
 
 Cross Site Request Forgery (CSRF) - Multiple:
 -------------------------------------------------
-<b>Vendor:</b> EE
-<br>
-<b>Product:</b> 4GEE Mobile WiFi Router, Version EE60_00_05.00_25
-<br>
 <b>Attack Type:</b> Remote
 <br>
 <b>Impact:</b> Code Execution
+<br>
 <br>
 <b>Affected Components:</b>
 <br>
@@ -91,11 +88,6 @@ CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:H/RL:O/RC:C (CVSS V3: 6.8 - Mediu
 
 JSONP Sensitive Information Disclosure - Multiple
 -------------------------------------------------
-
-<b>Vendor:</b> EE
-<br>
-<b>Product:</b> 4GEE Mobile WiFi Router, Version EE60_00_05.00_25
-<br>
 <b>Attack Type:</b> Remote
 <br>
 <b>Impact:</b> Information Disclosure, Escalation of Privileges
@@ -119,6 +111,7 @@ http://192.168.1.1/goform/getUsbIP?rand=0.13371337
 <b>Attack Vectors:</b> ??????
 <br>
 <b>Vulnerability Description:</b> The 4GEE Mobile WiFi Router is vulnerable to multiple JSONP information disclosure vulnerabilities within various endpoints which retrieve and/or set data. The JSONP endpoints allow for unauthenticated information disclosure of sensitive configuration data, settings, administration passwords and SMS messages, due to the lack of robust and effective access control. An attacker could view such unauthenticated endpoints via the local WiFi network to gain access to the administration credentials, router configuration and/or SMS messages.
+<br>
 <br>
 CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:H/RL:O/RC:C (CVSS V3: 8.1 - High).
 <br>
