@@ -11,6 +11,7 @@ EE 4GEE Wireless Router - Multiple Security Vulnerabilities Advisory
 <b>Proof of Concept Writeup:</b> https://blog.jameshemmings.co.uk/2017/08/24/ee-4gee-mobile-wifi-router-multiple-security-vulnerabilities-writeup/#more-276
 <br>
 <b>Disclosure Timeline:</b>
+<br>
 27th July, 2017 at 21:32 GMT. Email sent with technical vulnerability information and PoC.
 <br>
 27th July, 2017 at 22:00 GMT. Response from EE devices manager, confirming receipt of PoC.
