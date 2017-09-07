@@ -89,6 +89,47 @@ CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:H/RL:O/RC:C (CVSS V3: 6.8 - Mediu
 [6] https://github.com/JamesIT/vuln-advisories-/blob/master/EE-4GEE-Multiple-Vulns/uploadBinarySettingsCSRFPoC.html
 <br>
 
+JSONP Sensitive Information Disclosure - Multiple
+-------------------------------------------------
+
+<b>Vendor:</b> EE
+<br>
+<b>Product:</b> 4GEE Mobile WiFi Router, Version EE60_00_05.00_25
+<br>
+<b>Attack Type:</b> Remote
+<br>
+<b>Impact:</b> Information Disclosure, Escalation of Privileges
+<br>
+<b>Affected Components:</b> 
+<br>
+http://192.168.1.1/goform/getPasswordSaveInfo
+<br>
+http://192.168.1.1/goform/getSingleSMSReport?rand=0.133713371337
+<br>
+http://192.168.1.1/goform/getSingleSMS?sms_id=1&rand=0.133713371337
+<br>
+http://192.168.1.1/goform/getSMSStoreState
+<br>
+http://192.168.1.1/goform/getSMSAutoRedirectSetting
+<br>
+http://192.168.1.1/goform/getSysteminfo
+<br>
+http://192.168.1.1/goform/getUsbIP?rand=0.13371337
+<br>
+<b>Attack Vectors:</b> ??????
+<br>
+<b>Vulnerability Description:</b> The 4GEE Mobile WiFi Router is vulnerable to multiple JSONP information disclosure vulnerabilities within various endpoints which retrieve and/or set data. The JSONP endpoints allow for unauthenticated information disclosure of sensitive configuration data, settings, administration passwords and SMS messages, due to the lack of robust and effective access control. An attacker could view such unauthenticated endpoints via the local WiFi network to gain access to the administration credentials, router configuration and/or SMS messages.
+<br>
+CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:H/RL:O/RC:C (CVSS V3: 8.1 - High).
+<br>
+<b>Author:</b> James Hemmings - security@jameshemmings.co.uk
+<br>
+<b>Reference(s):</b>
+<br>
+[1] https://blog.jameshemmings.co.uk/2017/08/21/ee-4gee-mobile-wifi-router-multiple-security-vulnerabilities
+<br>
+<br>
+
 Disclaimer
 -------------------------------------------------
 The information in the advisory is believed to be accurate at the time of publishing based on currently available information. Use of the information constitutes acceptance for use in an AS IS condition. There are no warranties with regard to this information. Neither the author nor the publisher accepts any liability for any direct, indirect, or consequential loss or damage arising from use of, or reliance on, this information.
